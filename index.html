@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Smart Study Planner</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Smart Study Planner & Productivity Tracker</h1>
+
+    <!-- Auth + UI Controls -->
+    <div class="top-controls">
+        <button id="loginBtn">
+            <span class="material-icons">login</span> Sign in with Google
+        </button>
+
+        <button id="darkModeBtn">
+            <span class="material-icons">dark_mode</span> Toggle Dark Mode
+        </button>
+    </div>
+
+    <hr>
+
+    <!-- Task Input -->
+    <h2><span class="material-icons">assignment</span> Add Study Task</h2>
+
+    <input type="text" id="subject" placeholder="Subject">
+    <input type="text" id="task" placeholder="Task name">
+    <input type="date" id="deadline">
+    <input type="number" id="hours" placeholder="Study hours">
+
+    <button id="saveTaskBtn">
+        <span class="material-icons">save</span> Save Task
+    </button>
+
+    <p id="status"></p>
+
+    <hr>
+
+    <!-- Tasks -->
+    <h2><span class="material-icons">list</span> Your Tasks</h2>
+    <ul id="taskList"></ul>
+
+    <!-- Analytics -->
+    <h3><span class="material-icons">analytics</span> Productivity Summary</h3>
+    <p id="analytics"></p>
+
+    <!-- Progress -->
+    <h3><span class="material-icons">trending_up</span> Productivity Score</h3>
+    <div class="progress-container">
+        <div id="progressBar"></div>
+    </div>
+    <p id="progressText"></p>
+
+    <hr>
+
+    <!-- Timetable -->
+    <h2><span class="material-icons">schedule</span> Adaptive Study Plan</h2>
+    <p id="timetable"></p>
+
+    <!-- JS -->
+    <script type="module" src="./app.js"></script>
+</body>
+
+</html>

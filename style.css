@@ -1,0 +1,132 @@
+/* ===== Base ===== */
+body {
+    font-family: "Segoe UI", Tahoma, sans-serif;
+    background-color: #f5f7fb;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #1a73e8;
+}
+
+h2,
+h3 {
+    margin-top: 30px;
+}
+
+.material-icons {
+    vertical-align: middle;
+    margin-right: 6px;
+}
+
+/* ===== Buttons ===== */
+button {
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    padding: 10px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #1558c0;
+}
+
+.top-controls {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* ===== Inputs ===== */
+input {
+    display: block;
+    width: 100%;
+    max-width: 350px;
+    padding: 8px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* ===== Lists ===== */
+#taskList {
+    list-style: none;
+    padding: 0;
+}
+
+#taskList li {
+    background: white;
+    padding: 10px;
+    margin-bottom: 8px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* ===== Analytics ===== */
+#analytics,
+#timetable {
+    background-color: #e8f0fe;
+    padding: 12px;
+    border-radius: 6px;
+    max-width: 500px;
+}
+
+/* ===== Progress Bar ===== */
+.progress-container {
+    width: 100%;
+    max-width: 400px;
+    background-color: #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+#progressBar {
+    height: 16px;
+    width: 0%;
+    background-color: #1a73e8;
+    transition: width 0.4s ease;
+}
+
+/* ===== Dark Mode ===== */
+.dark {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+.dark h1 {
+    color: #bb86fc;
+}
+
+.dark button {
+    background-color: #333;
+}
+
+.dark input {
+    background-color: #222;
+    color: white;
+    border: 1px solid #555;
+}
+
+.dark #taskList li {
+    background-color: #1e1e1e;
+}
+
+.dark #analytics,
+.dark #timetable {
+    background-color: #1f1f1f;
+}
+
+.dark .progress-container {
+    background-color: #333;
+}
+
+.dark #progressBar {
+    background-color: #bb86fc;
+}

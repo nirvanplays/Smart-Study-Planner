@@ -55,7 +55,5 @@ Smart Study Planner is a cloud-based web application designed to help students e
 ## 👨‍💻 Developed By
 
 Team Pixels
-.Greeshma(Team Lead)
-.Nirvan
-.Manjunadh
+Greeshma(Team Lead),Nirvan,Manjunadh
 TechSprint Hackathon 2025
